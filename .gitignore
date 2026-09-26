@@ -3,12 +3,6 @@ logs
 *.log
 npm-debug.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
 # Dependency directories
 node_modules/
 
@@ -16,15 +10,14 @@ node_modules/
 dist/
 dist-ssr/
 
+# Team contributions packaging
+team_contributions/
+scratch/
+
 # Local env files
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
